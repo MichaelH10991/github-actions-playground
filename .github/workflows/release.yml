@@ -27,6 +27,7 @@ jobs:
         with:
           # this expects you to have a npm script called version that runs some logic and then calls `changeset version`.
           version: npm run changeset:version
+          createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
