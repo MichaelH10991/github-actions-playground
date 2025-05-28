@@ -1,0 +1,17 @@
+{
+  "name": "github-actions-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changeset:version": "changeset version && npm i",
+    "changeset:add": "changeset add",
+    "deploy": "changeset tag && git tag v$(node -p \"require('./package.json').version\") --force && git push --tags --force"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.29.4"
+  }
+}
