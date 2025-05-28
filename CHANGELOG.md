@@ -1,5 +1,11 @@
 # github-actions-playground
 
+## 2.2.0
+
+### Minor Changes
+
+- aaeaee2: some other change
+
 ## 2.1.0
 
 ### Minor Changes
