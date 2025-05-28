@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "changeset:version": "changeset version && npm i",
     "changeset:add": "changeset add",
-    "deploy": "changeset tag && git tag v$(node -p \"require('./package.json').version\") --force && git push --tags --force"
+    "deploy": "changeset tag && ./scripts/tag.sh"
   },
   "author": "",
   "license": "ISC",
